@@ -1,0 +1,12 @@
+<xml version="1.">
+   <LayoutCell reuseIdentifier="LayoutCell" backgroundColor="RGB(125,125,125)" >
+        <BSHLayout leftMargin="10" topMargin="10" rightMargin="10" bottomMargin="10" itemSpacing="20">
+            <UIView fixWidth="80" backgroundColor="RGB(123,123,123)"/>
+            <BSVLayout>
+                <UILabel text="nick name" />
+                <UILabel text="description" />
+            </BSVLayout>
+            <UIButton title="aButton"  backgroundColor="RGB(0,0,255)" fixWidth="100" action="onButtonClick:"/>
+        </BSHLayout>
+    </LayoutCell>
+</xml>

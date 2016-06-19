@@ -1,0 +1,9 @@
+<xml version="1.0">
+<UIScrollView backgroundColor="RGB(255,255,255)" fixHeight="200" pagingEnabled="YES" bounces="YES">
+    <BSHLayout itemSpacing="10" autoResize="YES">
+        <UIView backgroundColor="RGB(255,255,255)" fixWidth="-1"/>
+        <UIView backgroundColor="RGB(0,0,0)" fixWidth="-1"/>
+        <UIView backgroundColor="RGB(123,123,123)" fixWidth="-1"/>
+    </BSHLayout>
+</UIScrollView>
+</xml>

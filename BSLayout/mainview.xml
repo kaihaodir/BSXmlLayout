@@ -1,0 +1,61 @@
+<xml version = "1.0">
+    
+    <!--
+    <UIView name="mainView" linkProperty="mainView" backgroundColor="RGB(0,100,0)" frame="0,0,320,400">
+        <BSHLayout leftMargin="10" topMargin="10" rightMargin="10" bottomMargin="10" itemSpacing="5">
+                <BSVLayout itemSpacing="10" precentWidth="0.5" topMargin="10" bottomMargin="10" leftMargin = "10" rightMargin = "10">
+                    <UIButton backgroundColor="RGB(0,255,0)" title="button1"/>
+                    <UIButton backgroundColor="RGB(255,100,255)"  imageName="收藏" title="title" action="onClick"/>
+                </BSVLayout>
+                <UIView name="123" backgroundColor="RGB(255,255,255)"/>
+                <BSHLayout itemSpacing="10" precentWidth="0.3">
+                    <UIView backgroundColor="RGB(0,0,255)" />
+                    <UIView backgroundColor="RGB(0,0,100)" />
+                </BSHLayout>
+        </BSHLayout>
+    </UIView>
+     -->
+    
+    <!-- UITableView
+     
+    <UITableView name="tableView" linkProperty="tableView" backgroundColor="RGB(255,255,255)">
+    </UITableView>
+     -->
+    
+    
+    <!-- 表格布局
+    <UIView backgroundColor="RGB(123,123,123)" >
+        <BSGridLayout topMargin="10" leftMargin="10" rightMargin="10" bottomMargin="10" spacing="10" itemWidth="60" itemHeight="60">
+            <UIView backgroundColor="RGB(10,10,10)" />
+            <UIView backgroundColor="RGB(20,20,20)" />
+            <UIView backgroundColor="RGB(30,30,30)" />
+            <UIView backgroundColor="RGB(50,50,50)" />
+            <UIView backgroundColor="RGB(70,70,70)" />
+            <UIView backgroundColor="RGB(90,90,90)" />
+            <UIView backgroundColor="RGB(110,110,110)" />
+            <UIView backgroundColor="RGB(150,150,150)" />
+        </BSGridLayout>
+    </UIView>
+     -->
+    
+    <!-- 锚点布局
+    <UIView backgroundColor="RGB(180,180,180)">
+        <BSVLayout  leftMargin="10" rightMargin="10" topMargin="10" itemSpacing = "10">
+            <UIView backgroundColor = "RGB(255,255,2255)" />
+            <BSAnchorLayout>
+                <UIView backgroundColor="RGB(0,0,0)" anchorLeft="5" anchorTop="5" anchorRight="10" anchorBottom="20"/>
+            </BSAnchorLayout>
+        </BSVLayout>
+    </UIView>
+     -->
+    <UIScrollView backgroundColor="RGB(123,123,123)" >
+        <BSVLayout autoResize="YES">
+            <UIView backgroundColor="RGB(100,100,100)" fixHeight="200"/>
+            <UIView backgroundColor="RGB(180,188,180)" fixHeight="300"/>
+            <XmlView path="scrollview.xml"/>
+
+            <UIView backgroundColor="RGB(180,188,180)" fixHeight="100"/>
+            <UIView backgroundColor="RGB(0,0,0)" fixHeight="300"/>
+        </BSVLayout>
+    </UIScrollView>
+</xml>
